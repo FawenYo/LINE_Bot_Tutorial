@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "project/.venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.extraPaths": [
+        "project/"
+    ],
+    "git.ignoreLimitWarning": true
+}
