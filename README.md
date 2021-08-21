@@ -158,7 +158,7 @@ Heroku 是一個免費的雲端服務平台，只需寫好程式，Heroku 就會
 
 服務已經部署至 `Heroku` 或 自有主機，我們接著只需要將服務與 LINE Bot 連結便能完成任務了！
 
-1. 前往 [Line OA](https://developers.line.me/console/)，選擇剛剛創建的 Bot 後點擊右上角設定
+1. 前往 [Line OA](https://manager.line.biz/)，選擇剛剛創建的 Bot 後點擊右上角設定
    ![image_4-1](https://i.imgur.com/ZJbfZdU.jpg)
 2. 在 `Messaging API` 選項裡， `Webhook URL` 中輸入 "{網域}/callback"，這邊以 `Heroku` 作為示範
 
