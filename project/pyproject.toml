@@ -6,7 +6,7 @@ authors = ["FawenYo <twsky020600@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.8.6"
-fastapi = "^0.63.0"
+fastapi = "^0.65.2"
 line-bot-sdk = "^1.19.0"
 uvicorn = "^0.13.4"
 python-dotenv = "^0.17.0"
