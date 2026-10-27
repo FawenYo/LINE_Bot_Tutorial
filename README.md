@@ -105,6 +105,15 @@ Heroku 是一個免費的雲端服務平台，只需寫好程式，Heroku 就會
 
    **往後要更新 Bot 時，只需重複這步驟指令就可以了**
 
+7. 設置環境變數 `LINE_CHANNEL_ACCESS_TOKEN`、`LINE_CHANNEL_SECRET`
+
+   ```bash
+   heroku config:set LINE_CHANNEL_ACCESS_TOKEN={LINE_CHANNEL_ACCESS_TOKEN}
+   heroku config:set LINE_CHANNEL_SECRET={LINE_CHANNEL_SECRET}
+   ```
+
+   **注意：`{LINE_CHANNEL_ACCESS_TOKEN}`、`{LINE_CHANNEL_SECRET}` 為 Step 2 中取得的 `Channel access token` 和 `Channel secret`**
+
 ### 自有主機
 
 這邊我們以 Linux 的 `Debian` 系統作為示範，並假設使用者已經先行購買網域並複製憑證 `certificate.pem` 和 金鑰 `private.key` 檔案至 `nginx` 目錄下。
